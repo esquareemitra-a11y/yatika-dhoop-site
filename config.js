@@ -7,6 +7,6 @@
 window.YATIKA_CONFIG = {
   brandName: "Yatika Dhoop",
   businessName: "Yatika Enterprises",
-  whatsappNumber: "91XXXXXXXXXX",
+  whatsappNumber: "918955109109",
   currency: "INR"
 };
