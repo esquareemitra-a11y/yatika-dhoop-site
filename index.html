@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#76251d">
+  <meta name="description" content="Explore Yatika Dhoop premium dhoop sticks, incense and fragrance combo packs. Retail and wholesale enquiries welcome.">
+  <title>Yatika Dhoop | Premium Fragrance</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement" data-en="Retail & wholesale enquiries welcome | Made for every prayer" data-hi="रिटेल और होलसेल ऑर्डर आमंत्रित हैं | हर पूजा के लिए">Retail & wholesale enquiries welcome | Made for every prayer</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Yatika Dhoop home">
+      <span class="brand-mark">✦</span><span><strong>YATIKA DHOOP</strong><small data-en="FRAGRANCE OF DEVOTION" data-hi="भक्ति की सुगंध">FRAGRANCE OF DEVOTION</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+    <nav id="mainNav">
+      <a href="#home" data-en="Home" data-hi="होम">Home</a>
+      <a href="#shop" data-en="Shop" data-hi="प्रोडक्ट">Shop</a>
+      <a href="#wholesale" data-en="Wholesale" data-hi="होलसेल">Wholesale</a>
+      <a href="#about" data-en="Our Story" data-hi="हमारे बारे में">Our Story</a>
+      <a href="#contact" data-en="Contact" data-hi="संपर्क">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button id="langToggle" class="lang-btn" aria-label="Change language">हिंदी</button>
+      <button id="cartOpen" class="cart-btn"><span data-en="Cart" data-hi="कार्ट">Cart</span> <b id="cartCount">0</b></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow" data-en="A LITTLE FRAGRANCE. A MOMENT OF PEACE." data-hi="थोड़ी-सी खुशबू, सुकून का एक पल।">A LITTLE FRAGRANCE. A MOMENT OF PEACE.</p>
+        <h1 data-en="Bring home the fragrance of devotion." data-hi="घर लाएँ भक्ति और सुकून की खुशबू।">Bring home the fragrance of devotion.</h1>
+        <p class="hero-text" data-en="Discover dhoop and incense fragrances for your daily rituals, your home and your business." data-hi="रोज़ की पूजा, घर और आपके व्यवसाय के लिए धूप और अगरबत्ती की खुशबू चुनें।">Discover dhoop and incense fragrances for your daily rituals, your home and your business.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#shop" data-en="Explore products" data-hi="प्रोडक्ट देखें">Explore products</a>
+          <a class="btn btn-outline" href="#wholesale" data-en="Become a dealer" data-hi="डीलर बनें">Become a dealer</a>
+        </div>
+        <div class="hero-points"><span>✓ <span data-en="Fragrance variety" data-hi="कई खुशबुएँ">Fragrance variety</span></span><span>✓ <span data-en="Retail & bulk enquiries" data-hi="रिटेल और थोक पूछताछ">Retail & bulk enquiries</span></span></div>
+      </div>
+      <div class="hero-art">
+        <div class="sun-disc"></div>
+        <div class="hero-product"><div class="pack-top">YATIKA</div><div class="pack-symbol">✺</div><div class="pack-name">DHOOP</div><div class="pack-sub">FRAGRANCE COLLECTION</div><div class="pack-lines"></div></div>
+        <div class="floating-note" data-en="Made for your sacred moments" data-hi="आपके पवित्र पलों के लिए">Made for your sacred moments</div>
+      </div>
+    </section>
+
+    <section class="trust-strip">
+      <div><span>✦</span><b data-en="Thoughtful fragrances" data-hi="चुनी हुई खुशबुएँ">Thoughtful fragrances</b></div>
+      <div><span>◈</span><b data-en="Retail & wholesale" data-hi="रिटेल और होलसेल">Retail & wholesale</b></div>
+      <div><span>♡</span><b data-en="Personal WhatsApp support" data-hi="WhatsApp पर सहायता">Personal WhatsApp support</b></div>
+    </section>
+
+    <section class="section shop-section" id="shop">
+      <div class="section-heading">
+        <div><p class="eyebrow" data-en="FIND YOUR FRAGRANCE" data-hi="अपनी खुशबू चुनें">FIND YOUR FRAGRANCE</p><h2 data-en="Shop our collection" data-hi="हमारा कलेक्शन">Shop our collection</h2></div>
+        <p data-en="Choose a fragrance, add your quantity and send your order on WhatsApp." data-hi="खुशबू चुनें, मात्रा जोड़ें और WhatsApp पर ऑर्डर भेजें।">Choose a fragrance, add your quantity and send your order on WhatsApp.</p>
+      </div>
+      <div class="shop-tools">
+        <div class="filters" id="filters">
+          <button class="filter active" data-category="all" data-en="All products" data-hi="सभी प्रोडक्ट">All products</button>
+          <button class="filter" data-category="dhoop" data-en="Dhoop sticks" data-hi="धूपबत्ती">Dhoop sticks</button>
+          <button class="filter" data-category="incense" data-en="Incense" data-hi="अगरबत्ती">Incense</button>
+          <button class="filter" data-category="combo" data-en="Combo packs" data-hi="कॉम्बो पैक">Combo packs</button>
+        </div>
+        <input id="searchInput" class="search-input" type="search" placeholder="Search fragrances..." aria-label="Search products">
+      </div>
+      <div id="productGrid" class="product-grid"></div>
+      <p class="price-note" data-en="Prices shown are sample placeholders. Update product prices and pack details before publishing." data-hi="दिखाई गई कीमतें उदाहरण के लिए हैं। वेबसाइट प्रकाशित करने से पहले सही कीमतें और पैक विवरण अपडेट करें।">Prices shown are sample placeholders. Update product prices and pack details before publishing.</p>
+    </section>
+
+    <section class="wholesale-section" id="wholesale">
+      <div class="wholesale-copy">
+        <p class="eyebrow" data-en="FOR RETAILERS & DISTRIBUTORS" data-hi="रिटेलर और डिस्ट्रीब्यूटर के लिए">FOR RETAILERS & DISTRIBUTORS</p>
+        <h2 data-en="Let's grow together." data-hi="आइए, साथ मिलकर आगे बढ़ें।">Let's grow together.</h2>
+        <p data-en="Looking for dhoop products for your shop or distribution business? Tell us about your business and the quantity you need. Our team can share wholesale pricing and product details." data-hi="अपनी दुकान या डिस्ट्रीब्यूशन व्यवसाय के लिए धूप प्रोडक्ट चाहिए? अपने व्यवसाय और आवश्यक मात्रा की जानकारी भेजें। हम होलसेल रेट और प्रोडक्ट विवरण साझा कर सकते हैं।">Looking for dhoop products for your shop or distribution business? Tell us about your business and the quantity you need. Our team can share wholesale pricing and product details.</p>
+        <ul><li data-en="Dealer and bulk order enquiries" data-hi="डीलर और बड़े ऑर्डर की पूछताछ">Dealer and bulk order enquiries</li><li data-en="Fragrance and pack-size information" data-hi="खुशबू और पैक-साइज़ की जानकारी">Fragrance and pack-size information</li><li data-en="Direct conversation on WhatsApp" data-hi="WhatsApp पर सीधी बातचीत">Direct conversation on WhatsApp</li></ul>
+      </div>
+      <form id="wholesaleForm" class="wholesale-form">
+        <h3 data-en="Wholesale enquiry" data-hi="होलसेल पूछताछ">Wholesale enquiry</h3>
+        <label><span data-en="Your name" data-hi="आपका नाम">Your name</span><input name="name" required autocomplete="name" placeholder="Name / नाम"></label>
+        <label><span data-en="Shop / business name" data-hi="दुकान / व्यवसाय का नाम">Shop / business name</span><input name="business" required placeholder="Business name"></label>
+        <label><span data-en="City" data-hi="शहर">City</span><input name="city" required placeholder="City / शहर"></label>
+        <label><span data-en="Interested quantity" data-hi="अनुमानित मात्रा">Interested quantity</span><select name="quantity"><option value="Trial order / छोटा ऑर्डर">Trial order / छोटा ऑर्डर</option><option value="50–100 packs">50–100 packs</option><option value="100–500 packs">100–500 packs</option><option value="500+ packs">500+ packs</option></select></label>
+        <label><span data-en="Phone number (optional)" data-hi="मोबाइल नंबर (वैकल्पिक)">Phone number (optional)</span><input name="phone" type="tel" autocomplete="tel" placeholder="+91"></label>
+        <button class="btn btn-primary btn-full" type="submit" data-en="Send enquiry on WhatsApp" data-hi="WhatsApp पर पूछताछ भेजें">Send enquiry on WhatsApp</button>
+        <small data-en="Your WhatsApp app will open with your enquiry ready to send." data-hi="आपकी पूछताछ तैयार संदेश के रूप में WhatsApp में खुलेगी।">Your WhatsApp app will open with your enquiry ready to send.</small>
+      </form>
+    </section>
+
+    <section class="about-section section" id="about">
+      <div class="about-emblem">✺</div><div><p class="eyebrow" data-en="THE YATIKA PROMISE" data-hi="YATIKA का वादा">THE YATIKA PROMISE</p><h2 data-en="Fragrance for everyday rituals." data-hi="रोज़ की पूजा के लिए खुशबू।">Fragrance for everyday rituals.</h2><p data-en="Yatika Dhoop brings together a range of fragrance options for homes, places of worship and retail partners. Contact us for current availability, pack sizes and dealer details." data-hi="Yatika Dhoop घर, पूजा-स्थल और रिटेल पार्टनर्स के लिए विभिन्न खुशबुएँ उपलब्ध कराने का प्रयास करता है। मौजूदा स्टॉक, पैक-साइज़ और डीलर जानकारी के लिए संपर्क करें।">Yatika Dhoop brings together a range of fragrance options for homes, places of worship and retail partners. Contact us for current availability, pack sizes and dealer details.</p></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div><p class="eyebrow" data-en="WE'RE HERE TO HELP" data-hi="हम आपकी सहायता के लिए हैं">WE'RE HERE TO HELP</p><h2 data-en="Have a question?" data-hi="कोई सवाल है?">Have a question?</h2><p data-en="Ask about products, availability, bulk pricing or dealership." data-hi="प्रोडक्ट, उपलब्धता, थोक रेट या डीलरशिप के बारे में पूछें।">Ask about products, availability, bulk pricing or dealership.</p></div>
+      <a class="btn btn-light" id="contactWhatsApp" href="#" target="_blank" rel="noopener" data-en="Chat on WhatsApp ↗" data-hi="WhatsApp पर बात करें ↗">Chat on WhatsApp ↗</a>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">✦</span><span><strong>YATIKA DHOOP</strong><small>FRAGRANCE OF DEVOTION</small></span></a><p>© <span id="year"></span> Yatika Enterprises. <span data-en="All rights reserved." data-hi="सर्वाधिकार सुरक्षित।">All rights reserved.</span></p><div><a href="#contact" data-en="Contact" data-hi="संपर्क">Contact</a><a href="#wholesale" data-en="Wholesale" data-hi="होलसेल">Wholesale</a></div></footer>
+
+  <div id="cartDrawer" class="cart-drawer" aria-hidden="true">
+    <div class="drawer-backdrop" id="cartBackdrop"></div>
+    <aside class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+      <div class="drawer-head"><h2 id="cartTitle" data-en="Your order" data-hi="आपका ऑर्डर">Your order</h2><button id="cartClose" class="close-btn" aria-label="Close cart">×</button></div>
+      <div id="cartItems" class="cart-items"></div>
+      <div class="cart-total"><span data-en="Estimated total" data-hi="अनुमानित कुल">Estimated total</span><strong id="cartTotal">₹0</strong></div>
+      <p class="cart-disclaimer" data-en="Shipping, final pricing and availability will be confirmed by our team on WhatsApp." data-hi="डिलीवरी, अंतिम कीमत और उपलब्धता की पुष्टि हमारी टीम WhatsApp पर करेगी।">Shipping, final pricing and availability will be confirmed by our team on WhatsApp.</p>
+      <button id="checkoutBtn" class="btn btn-primary btn-full" data-en="Order on WhatsApp" data-hi="WhatsApp पर ऑर्डर करें">Order on WhatsApp</button>
+    </aside>
+  </div>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
