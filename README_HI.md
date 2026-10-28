@@ -60,3 +60,29 @@ Official guide: https://docs.github.com/en/pages
 - Checkout पर final price, stock, shipping और payment details WhatsApp पर confirm करें।
 - कोई customer phone number या private data इस static site में store नहीं किया जाता।
 - Google Fonts के लिए internet connection चाहिए; offline होने पर fallback fonts इस्तेमाल होंगे।
+
+
+## आपके प्रोडक्ट फोटो जोड़े गए हैं
+आपके 15 अपलोड किए गए प्रोडक्ट फोटो वेबसाइट की बाकी फाइलों के साथ उसी root में रखे गए हैं और `script.js` में उनसे लिंक कर दिया गया है। GitHub Repository के root में सभी वेबसाइट फाइलें और सभी JPG फोटो अपलोड करें।
+
+**ध्यान दें:** अभी सभी प्रोडक्ट की कीमत `0` / “कीमत पूछें” पर है। असली कीमतें डालने के लिए `script.js` में हर प्रोडक्ट की `price:0` को वास्तविक कीमत से बदलें। WhatsApp ऑर्डर चालू करने के लिए `config.js` में अपना WhatsApp नंबर भी सेट करें।
+
+
+## नया अपडेट: लोगो और अतिरिक्त प्रोडक्ट फोटो
+- `yatika-logo.png` को वेबसाइट के header में जोड़ा गया है।
+- Cool Water, Divine Delight, Lavender, Night Jasmine, Luxury Oud और Z Black के फोटो तथा प्रोडक्ट कार्ड जोड़े गए हैं।
+- कुल 21 फ्रेगरेंस/प्रोडक्ट विकल्प और 1 combo विकल्प वेबसाइट में हैं।
+- वेबसाइट अपलोड करते समय सभी `.html`, `.css`, `.js`, `.png` और `.jpg` फाइलें एक ही repository root में रखें।
+- कीमतें अभी “कीमत पूछें” मोड में हैं। `script.js` में `price:0` को असली कीमत से बदलें और `config.js` में सही WhatsApp नंबर डालें।
+
+
+## अतिरिक्त उत्पाद (नया अपडेट)
+- Pure Gugal Cups / शुद्ध गुगल कप
+- Hawan Special Cups / हवन स्पेशल कप
+- Loban Dhoop Cups / लोबान धूप कप
+- Bhimsaini Kapoor / भीमसेनी कपूर
+- Natural Gugal / नेचुरल गुगल
+- Bambooless Incense Sticks / बैंबूलेस अगरबत्ती रेंज
+- Mix Flower Dhoop Cones / मिक्स फ्लावर धूप कोन
+
+इन उत्पादों की असली फोटो वेबसाइट में शामिल हैं। कीमतें अभी “कीमत पूछें” पर हैं; कीमत और स्टॉक की पुष्टि के बाद ही बदलें।
